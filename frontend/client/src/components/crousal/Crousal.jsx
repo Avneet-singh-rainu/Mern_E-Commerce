@@ -7,7 +7,7 @@ const Crousal = () => {
   ];
 
   return (
-    <div className="w-2/3 h-72 bg-white flex mx-auto mt-8 mb-9 overflow-hidden ">
+    <div className="sm:w-2/3 sm:h-72 bg-white flex mx-auto mt-8 mb-9 overflow-hidden ">
       {images.map((x) => {
         return (
           <div>

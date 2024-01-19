@@ -37,8 +37,8 @@ export const SingleProduct = () => {
   return (
     <div className="max-w-screen ">
       <Category />
-      <div className="w-full h-full bg-white mt-9 flex justify-around p-5">
-        <div className="flex gap-2">
+      <div className="w-full h-full bg-white mt-9 flex justify-around p-5 flex-col sm:flex-row">
+        <div className="flex gap-2 flex-col sm:flex-row">
           <div></div>
           <div className="flex flex-col  gap-7">
             <img src={data.thumbnail} alt="" />

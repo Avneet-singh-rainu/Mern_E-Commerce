@@ -37,10 +37,10 @@ const SearchProduct = () => {
   return (
     <>
       <Category />
-      <div className="flex flex-wrap justify-evenly gap-12 w-full h-full ">
+      <div className="sm:flex sm:flex-row flex-col flex-wrap justify-evenly gap-12 w-full h-full">
         {newData.map((obj) => {
           return (
-            <div className="border w-1/5 h-96 bg-white rounded-lg overflow-hidden">
+            <div className="border sm:w-1/5 h-96 bg-white rounded-lg overflow-hidden gap-3">
               <Link
                 to={{ pathname: `${obj._id}`, state: { id: obj._id } }}
                 className="border w-1/5 h-80 bg-white rounded-lg"

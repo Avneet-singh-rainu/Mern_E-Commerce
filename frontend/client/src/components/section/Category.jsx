@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Category = ({ data }) => {
   return (
-    <div className="bg-white mt-3 h-16 overflow-hidden flex items-center justify-center gap-12 px-5 mb-12">
+    <div className="bg-white mt-3 h-16 overflow-hidden  items-center justify-center gap-12 px-5 mb-12 sm:flex hidden">
       <div className="h-full  overflow-hidden cursor-pointer">
         <Link to="/category/fragrances" state={{ data: { data } }}>
           <div className=" h-full text-2xl font-mono flex mt-4 ">FRAGRANCES</div>
